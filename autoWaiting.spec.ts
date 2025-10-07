@@ -1,5 +1,4 @@
 import{expect, test} from '@playwright/test'
-import { timeout } from 'rxjs-compat/operator/timeout'
 
 test.beforeEach(async({page}, testInfo)=> {
     await page.goto('http://uitestingplayground.com/ajax')
